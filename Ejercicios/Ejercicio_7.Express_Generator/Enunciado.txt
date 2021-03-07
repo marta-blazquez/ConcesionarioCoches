@@ -1,0 +1,22 @@
+1: Crear un proyecto con express generator
+2:instalar todas las dependencias( npm install)
+3:cambiar el script del package.json y añadir nodemon
+4: Crear un nuevo archivo de ruta pets.js
+5:Añadir la ruta al app
+6:Crear un pets.html
+7:linkar el css correspondiente
+8:Cuando entremos en la ruta http GET localhost:3000/pets/home 
+    ->Que se muestre el html que os he pasado y que en la pate del titulo y las cards de los 3 
+        perritos se muestren los datos X , desde el backend( que el back envie esos datos al ejs)
+
+
+//*****
+Vamos a crear 3 paginas mas COMPLETAS (con su ruta, su css, su html(que es ejs), etc):
+    Forty
+    music
+    travel
+las teneis que incluid en el nav de pets
+** Cuando la url sea localhost:3000/form que se muestre un formulario
+    y cuando se muestre y se envien los datos del formulario, mostrarlos en la consola
+    Nombre de la web, dominio, colores corporativos, telefono, direccion, ceo, cto, front Developer,
+    backend developer, ux/ui

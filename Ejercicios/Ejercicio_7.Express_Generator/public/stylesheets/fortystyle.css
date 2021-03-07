@@ -1,0 +1,51 @@
+
+.padding-right{
+    padding-right: 5px;
+}
+.margen-izq {
+    margin-left: 20px;
+}
+.bg-azul{
+    background-color: #232943;
+}
+
+.bg-morado{
+    background-color: #8d82c4;
+}
+
+.bg-turquesa{
+    background-color: #6fc3df;
+}
+.bg-salmon{
+    background-color: salmon;
+}
+.bg-naranja{
+    background-color: lightsalmon;
+}
+.bg-añil{
+    background-color:lightblue; 
+}
+.bg-verde{
+    background-color: green;
+}
+.h60{
+    height: 60vh; 
+}
+hr{
+    height: 1px;
+    background-color:white;
+
+}
+.mayuscula{
+text-transform: uppercase;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex_dos{
+    display: flex;
+    flex-direction: column;
+}

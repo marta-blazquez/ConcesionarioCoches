@@ -1,0 +1,15 @@
+express --view=ejs 8.Controladores
+
+cd 8.Controladores
+
+  "start": "nodemon ./bin/www"
+
+npm install mysql
+
+npm install sha1   ---> encriptar contraseña
+
+npm install --save multer   ---> subir imagenes
+
+npm install
+
+npm start

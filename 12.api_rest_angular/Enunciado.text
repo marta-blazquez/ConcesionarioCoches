@@ -1,0 +1,34 @@
+/Vais a crear un proyecto con express desde cero y SIN usar el generator ---- NO USAR GENERATOR -----
+//instalar todas las librerias necesarias
+//crear dos rutas con sus endpoint correspondientes:
+    // 1ra ruta coches.js
+    // 2da ruta viajes.js
+//crear una database : angular con 2 tablas
+    //1ra tabla coches:
+     id(VARCHAR),marca(VARCHAR),modelo(VARCHAR),puertas:(INT),tipoDeCoche:(VARCHAR),
+        potencia(INT),oferta(TINYINT),visible(TINYINT),vendido(TINYINT),fecha(DATE),precio(INT)
+    //2da tabla viajes: id(VARCHAR),NOMBRE(VARCHAR),TIPO(VARCHAR),DURACION(VARCHAR),DESTINO(VARCHAR),PLAZAS(VARCHAR),
+        IMAGEN(VARCHAR),COLOR(VARCHAR), ESTADO(INT), RATING(INT)
+crear una api rest completa con imagen
+
+npm init 
+npm install express
+npm install morgan         ----- informacion adicional
+npm install sha1 (no hay contraseña)
+npm install mysql
+npm install dotenv
+npm install multer
+npm install cors            ---- Permite enviar datos al front
+npm install body-parser    -----  Recoger datos del body
+
+package.json --->     "start": "nodemon ./src/index.js"
+Carpeta src: config
+            controllers
+            middleware
+            public
+            routes
+            index.js
+
+.env (variables globales)
+
+ 

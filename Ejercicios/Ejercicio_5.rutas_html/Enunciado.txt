@@ -1,0 +1,36 @@
+Crear un proyecto con node:
+    crear servidor con express
+    crear 3 archivos de rutas:
+        index.js
+        X.js
+        japo.js
+1. index.js crear 2 rutas: '/' que muestre un mensaje, '/index' que muestre un html con su css
+2. index.js crear 2 rutas: '/' que muestre un mensaje, '/X' que muestre un html con su css
+1. index.js crear 2 rutas: '/' que muestre un mensaje, '/japo' que muestre un html con su css
+
+
+Pasos:
+voy a la carpeta 
+creo el archivo principal 
+
+npm init (xa crear packajson)
+
+npm install express 
+npm install body-parser
+path no hay q instalarla
+npm install
+
+copiar en el archivo principal el texto del servidor de express 
+
+en packagejson ---> start nodemon
+
+Creo carpeta routes
+en rutas creo los archivos de rutas japo, index y x 
+
+creo la carpeta html
+
+constante de ruta en app 
+app use 
+en index cont de expres y router  y  module export
+ 
+ npm start 

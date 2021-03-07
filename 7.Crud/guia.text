@@ -1,0 +1,13 @@
+  //CRUD -> create, read, update, delete
+  /*
+ express --view=ejs 7.Crud
+
+  npm install mysql
+  npm install 
+  nodemon
+  npm start 
+
+  crear carpeta config
+  */
+
+https://developer.mozilla.org/es/docs/Web/HTTP/Status

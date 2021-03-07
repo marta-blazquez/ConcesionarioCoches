@@ -1,0 +1,15 @@
+1-creo el proyecto he instalo las librerias
+2- creo la config a bd
+3-creo la carpeta controller y los controladores necesarios
+4-configuro el controlador(lo requiero en la ruta) y requiero multer
+5-Creo controlador viewHome con logica
+6-llamar al metodo X(viewHome) del controlador en la ruta
+7-creo la vista X (home)
+8-creo el navbar
+9-creo la query en el controlador y envio los resultados a la vista home.ejs
+10-pinto con el foreach los resultados
+----------
+11-Creo el controlador que busca un usuario por id_user
+12-recojo del params la variable y la INTERPOLO en la query
+13-renderizo la vista user y envio el resultados
+14-creo la vista user.ejs y pinto los datos

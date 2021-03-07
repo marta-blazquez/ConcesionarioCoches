@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                     </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto w-100 d-flex justify-content-center">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <!-- href es la ruta q aparece en la url despues de localhost:3000 -->
+                                <a class="nav-link text-white" href="/forty">Forty</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="/music">Music</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="/travel">Travel</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="/form">Formulario</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row bg-pet">
+            <div class="col-12 col-md-6  d-flex justify-content-end align-items-center">
+                <div class="text-banner">
+                    <p class="text-danger">Lorem ipsum dolor sit amet.</p>
+                    <p><%= title %></p>
+                    <h1>Lorem ipsum dolor sit.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row h100-Custom">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <img class="w-75" src="/images/about.png" alt="">
+            </div>
+            <div class="col-12 col-md-6  d-flex justify-content-center align-items-center">
+                <div class="care">
+                    <img src="/images/about_icon.png" alt="">
+                    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi sed excepturi repellat cupiditate officiis explicabo obcaecati inventore!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-blue ">
+            <div class="col-12 text-center">
+                <!-- texto -->
+                <img src="/images/about_icon.png" alt="">
+                <h2>Lorem ipsum dolor sit.</h2>
+                <p>Va usté muy cargadoo al ataquerl diodeno no puedor a wan no te digo trigo por no llamarte Rodrigor te voy a borrar el cerito la caidita</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                <!-- card -->
+                <div class="card border-0 bg-transparent w-75 align-items-center text-center">
+                    <img class="w-50" src="/images/single_service_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><%= cardUna %></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4  d-flex justify-content-center">
+                <!-- card -->
+                <div class="card border-0 bg-transparent w-75 align-items-center text-center">
+                    <img class="w-50" src="/images/single_service_2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><%= cardDos %></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-sm-6 col-md-4  d-flex justify-content-center">
+                <!-- card -->
+                <div class="card border-0 bg-transparent w-75 align-items-center text-center">
+                    <img class="w-50" src="/images/single_service_3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><%= cardTres %></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row pt-5 pb-5">
+            <div class="col-12 col-sm-6 d-flex align-items-end flex-column">
+                <div class="adopt-text w-75">
+                    <h3>Va usté muy cargadoo al ataquerl diodeno</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum iusto eligendi ea hic laborum iste.</p>
+                </div>
+                <div class="adopt-cards w-75 d-flex mt-5">
+                    <div class="card border-0">
+                        <img src="/images/adopt_icon_1.png" class="card-img-top w-25" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title">2020 +</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="card border-0">
+                        <img src="/images/adopt_icon_1.png" class="card-img-top w-25" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title">2020 +</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="adopt-button w-75 text-center mt-3">
+                    <button class="btn btn-info rounded-pill ">Browns now</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <img class="w-100" src="/images/adopt_img.png" alt="">
+            </div>
+        </div>
+        <div class="row bg-dog">
+        </div>
+        <div class="row pt-5 pb-5">
+            <div class="col-12 col-sm-6">
+                <img class="w-100" src="/images/valunteer_img.png" alt="">
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+                <div class="valunteer ">
+                    <img src="/images/about_icon.png" alt="">
+                    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi sed excepturi repellat cupiditate officiis explicabo obcaecati inventore!</p>
+                    <button class="btn btn-info">lorem</button>
+                </div>
+            </div>
+        </div>
+        <div class="row  bg-footer">
+            <div class="col-12 text-center text-white">
+                <h2>Lorem ipsum dolor sit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime dolorem cum eveniet doloremque. Eveniet.</p>
+                <form class="form-inline my-2 my-lg-0 justify-content-center">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Username" aria-label="Search">
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Free Trial</button>
+                </form>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <ul class="text-white list-unstyled text-center">
+                    <li>Menu</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <ul class="text-white list-unstyled text-center">
+                    <li>Menu</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <ul class="text-white list-unstyled text-center">
+                    <li>Menu</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <ul class="text-white list-unstyled text-center">
+                    <li>Menu</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+Crear un servidor con nodejs/express:
+1.npm init (punto de entrada -> app.js)
+2.instalamos las dependencias necesarias(--nodemon--)
+3.Crear un app.js para crear y levantar el servidor
+4.crear un html === el ejercicio de login que mande para las vacaciones
+5.crear un css === el ejercicio de login que mande para las vacaciones
+6.Crear 4 rutas:
+    Primera ruta => '/' y que muestre en el navegador un mensaje (Soy la primera ruta)
+    Segunda ruta => '/segunda' y que muestre en el navegador un mensaje (Soy la segunda ruta)
+    Tercera ruta => '/coches' y que muestre en el navegador un mensaje (Ford Mustang)
+    Cuarta ruta => '/Homa' y que muestre en el navegador el html con su css correspondiente
+**Si alguien no tiene la de login que haga otra/ Si quereis hacer otra podeis hacerla

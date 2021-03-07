@@ -1,0 +1,14 @@
+Instalar de forma global : npm install express-generator -g (ya lo tengo instalado)
+Si no es de forma global : npm express-generator
+
+
+express --view=ejs 5.Express_Generator (se crea una carpeta con el nombre que he puesto y ya aparecen los archivos que necesitas)
+entro en la carpeta 
+npm install (instalo las q me hacen falta)
+
+
+
+"scripts": {
+    "start": "nodemon ./bin/www"
+
+npm start 

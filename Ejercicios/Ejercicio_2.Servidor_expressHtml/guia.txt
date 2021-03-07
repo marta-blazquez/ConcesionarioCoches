@@ -1,0 +1,74 @@
+-------------- GUIA PARA CREAR UN SERVIDOR EXPRESS -----------------
+
+Creo la carpeta en la que quiero trabajar. 
+En la terminal me coloco en esa carpeta. 
+Creo el archivo principal de entrada
+
+Escribo en la terminal     ------------ npm init ------------
+Entonces se creará el archivo package.json 
+
+Para instalar la libreria express, escribo en la terminal     ------------ npm install express --save ------------
+En la carpeta package json se incluirá en depencencias la librería de express
+Y se creará el archivo package-lock.json
+
+(Ojo: si ya lo instalado de forma global, me salto este puento)
+Puedo comprobar si ya está instalado si me voy al archivo package.json, y miro en "Scrip", debe aparecer "nodemon app.js"
+
+                                "scripts": {
+                                    "test": "echo \"Error: no test specified\" && exit 1",
+                 ---------->        "start": "nodemon index.js"
+Instalo la libreria Nodemon para no tener que tirar (ctrl + c) y volver a ejecutar el servidor cada vez q hagamos un cambio
+En la terminal escribo ---------------- npm install -g nodemon ------------ (instalar de forma global en el ordenador)
+                        -------------- npm install --save-dev nodemon
+
+Aunque esté instalado, en la terminal debo escribir  -------- npm start -------
+
+Instalo la libreria path (para las rutas)
+                ------------ npm install --save path ------------------
+
+
+Creo mi archivo principal (app.js)
+
+Visito: https://expressjs.com/es/
+y me dirijo a "Cómo empezar" / "Hello Wordl"   https://expressjs.com/es/starter/hello-world.html
+Y copio esto en mi archivo principal: 
+                        const express = require('express')
+                        const app = express()
+                        const port = 3000
+
+                        app.get('/', (req, res) => {
+                        res.send('Hello World!')
+                        })
+
+                        app.listen(port, () => {
+                        console.log(`Example app listening at http://localhost:${port}`)
+                        })
+
+Añado en la segunad linea, para requerir la libreria path
+                        const path = requiere("path");
+
+(NO) En la terminal ejecuto mi archivo principa ecribiendo ------ node index.js ---------
+Pero para arrancar el proyecto, debo poner ---------------- mpm start --------------
+
+http://localhost:3000/
+
+
+Metodos de petición de http: 
+https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+
+GET: solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+POST: se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
+
+
+Para que reconozca el archivo css, hay que crear una ruta estática
+La ruta estatica debe ir antes de la ruta 
+La creamos para poder accede desde cualquier parte de nuestro servidor web a los archivos que indica la carpeta css
+
+
+_________________ Como abrir un archivo de otra persona
+
+Lo descargo y descomprimo (debe venir sin la carpeta Node module)
+en la terminal ------------------- npm install  (instala lo que es necesario)
+
+se carga la carpeta node module
+--------------------------------- npm start 

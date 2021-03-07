@@ -1,0 +1,9 @@
+crear una apirest con express
+database jwt:
+    con una tabla que sea user con los campos: id_user, name,email,password,age,address
+crear una ruta principal index.js
+    .get('/') -> traer todos los usuario de la base de datos
+    .post('/creartoken') -> comprobar que el email  y la password existan en la base de datos Y si SI existen crear token y NO existe enviar 
+        mensaje de (el usuario no existe)
+    .post('/verificarToken') -> que tenga un middleware que permita al usuario acceder a un controlador si el token es correcto y SI
+        es correcto manda desde el controlador un mensaje ('ha llegado al controlador')

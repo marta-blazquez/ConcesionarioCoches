@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <!-- Utilizamos el metodo post para enviar informacion a traves de un formulario
+    sin que sevean los datos a traves del cuerpo del mensaje -->
+    <!-- localhost:3000/product/enviarFormulario
+    la ruta que se va a ejecutar de nuestro archivo de rutas products.js-->
+    <form action="/product/enviarFormulario" method="POST">
+        <laber for="">Nombre</laber>
+        <!-- Necesitamos en el input un atributo que se llama name
+        es una variable dnd vamos a gusrdar la informacion que introduzcamos en el 
+    input y que vamos a enviar al backend-->
+        <input type="text" name="miNombre" placeholder="nombre">
+<!-- let miNombre -->
+        <laber for="">Apellido</laber>
+        <input type="text" name="miApellido" placeholder="apellido">
+
+    <input type="submit" value="click para enviar los datos al back">
+    </form>
+<hr>
+
+    <!-- localhost:3000/product/envioDeProducto   ----- la ejecuto a través de un post -->
+    <form action="/product/envioDeProducto" method="POST">
+
+        <laber for="">Nombre del producto</laber>
+        <input type="text" name="nombreProducto">
+        <laber for="">Color del producto</laber>
+        <input type="text" name="color">
+        <laber for="">Forma del producto</laber>
+        <input type="text" name="forma">
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <hr>
+
+    <form action="/" method="POST">
+
+
+    </form>
+</body>
+</html>

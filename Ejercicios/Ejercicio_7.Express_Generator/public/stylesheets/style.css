@@ -1,0 +1,51 @@
+.h100-Custom {
+  height: 100vh;
+}
+
+.bg-nav {
+  background-color: #082B49;
+}
+
+.bg-pet {
+  background-image: url(../images/banner_bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-blue {
+  background-image: url(../images/services_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-banner {
+  width: 70%;
+}
+
+.text-banner h1 {
+  color: #082B49;
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.adopt-text h3 {
+  font-size: 45px;
+  font-weight: 100;
+  margin: 0 0 40px 0;
+}
+
+.bg-dog {
+  background-image: url(../images/review_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 200px;
+}
+
+.bg-footer {
+  background-image: url(../images/footer_bg.png);
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,83 @@
+express --view=ejs 6.Conexion_MSQL
+
+Voy a l a carpeta que se creó automáticamnete
+
+https://www.npmjs.com/package/mysql
+npm install mysql //
+en el ackage.json "nodemon"
+
+npm install 
+
+Creamos una carpeta con la config/db.js 
+y pegamos la configuracio
+
+var mysql      = require('mysql');
+var connection = mysql.createConnection({
+  host     : 'localhost',
+  user     : 'me',
+  password : 'secret',
+  database : 'my_db'
+});
+ 
+connection.connect();
+ 
+connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+  if (error) throw error;
+  console.log('The solution is: ', results[0].solution);
+});
+ 
+connection.end();
+
+
+Borro: 
+
+connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+  if (error) throw error;
+  console.log('The solution is: ', results[0].solution);
+});
+ 
+connection.end();
+
+Y escribimos:
+
+module.exports = connection;
+
+Además completamos: 
+
+connection.connect(
+    function(error){
+        if(error){
+            throw error;
+        }else{
+            console.log("conexion correcta")
+        }
+    }
+);
+
+Creo la bbdd
+actualizo los datos en el archivo db.js
+
+en app.js añado: const connection = require('./config/db.js');
+
+
+en el index: var connection = require('../config/db');
+
+y creamos: router.get
+
+
+
+
+EJERCICIO: 
+tabla alumnos: 
+id_alumnos Primery key not null auto_increment
+name varchar 150
+surname varchar 150 
+age number
+eyescolor varchar 20
+song varchar 200
+Crear una ruta nueva que se llame alumnos.js (localhost:3000/alumnos) =>app.js
+Dentro de la ruta alumnos(archivo alumnos.js) crear una ruta :
+    localhost:3000/alumnos/todos -> de la base de datos todos los alumnos
+    localhost:3000/alumnos/unAlumno/:id_alumno -> de la base de datos un  alumno
+    localhost:3000/alumnos/guardar -> guarde en la base de datos un alumnos con todos los campos
+

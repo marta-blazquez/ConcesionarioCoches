@@ -1,0 +1,31 @@
+Crear un proyecto con node:
+    crear servidor con express
+    crear 2 archivos de rutas:
+        index.js
+        login.js 
+1. index.js crear 2 rutas: '/' que muestre un index.html que muestra un formulario con los campos:
+            nombre, apellido,edad,color de pelo, telefono
+    , '/recogerDatos' que recoja los datos del formulario y los envie al front(navegador)
+1. login.js crear 2 rutas: '/login' que muestre un login.html que muestra un formulario con los campos:
+            email, password,checkbox
+    , '/login/recoger' que recoja los datos del formulario y los envie al front(navegador)
+-----OBVIAMENTE---- linkando un CSS a cada html y bootstrap(cdn)----------!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
